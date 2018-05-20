@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "171195246457",
+    "firebase_url": "https://soleil-f18af.firebaseio.com",
+    "project_id": "soleil-f18af",
+    "storage_bucket": "soleil-f18af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171195246457:android:9718c7a758a61d93",
+        "android_client_info": {
+          "package_name": "net.daum.www.soleil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171195246457-7j0m5fmmli4iqrr7pvnb8akbh2ilra46.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.daum.www.soleil",
+            "certificate_hash": "025a86091fc4ad5c2929cdc625845a83da74c149"
+          }
+        },
+        {
+          "client_id": "171195246457-vhlggmloqakvnetq3gbu74deoo0em33q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbDYE3tMGt4DXMEczHUfyTP09KcmuzQKQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171195246457-vhlggmloqakvnetq3gbu74deoo0em33q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

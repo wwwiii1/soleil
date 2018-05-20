@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="net.daum.www.soleil">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true"
+        android:configChanges="keyboardHidden|orientation">
+        <activity android:name="net.daum.www.soleil.View.Activity.Permission">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="net.daum.www.soleil.View.Activity.MainActivity"></activity>
+        <activity android:name="net.daum.www.soleil.View.Activity.CreateAccountActivity"></activity>
+        <activity android:name="net.daum.www.soleil.View.Activity.LoginPageActivity"></activity>
+        <activity android:name="net.daum.www.soleil.View.Activity.ContentCreateForm"></activity>
+    </application>
+
+</manifest>
